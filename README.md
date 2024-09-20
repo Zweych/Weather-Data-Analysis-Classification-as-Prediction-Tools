@@ -7,6 +7,7 @@ Pada project ini, saya melakukan analisa untuk menentukan kemungkinan cuaca di m
 2. Cluster 2: Berawan
 3. Cluster 3: Gerimis
 4. Cluster 4: Hujan/Badai
+
 Detail analisa dapat dilihat di dalam file "data_labeling.ipynb". Setelah proses penamaan pada setiap cluster selesai, saya membuat tabel baru untuk menyimpan nama cuaca bernama "Cuaca". Setelah itu, file yang sudah diproses sebelumnya saya simpan ke file baru bernama "new_dataset.csv".
 
 File "new_dataset.csv" saya gunakan untuk task classification dimana saya akan menggunakan 4 model yaitu:
@@ -14,4 +15,5 @@ File "new_dataset.csv" saya gunakan untuk task classification dimana saya akan m
 - Support Vector Classifier, akurasi: 98%
 - Gaussian Naive Bayes, akurasi: 93%
 - Random Forest Classifier, akurasi: 94%
+
 Detail dapat dilihat dalam file "weather_classification.ipynb".
